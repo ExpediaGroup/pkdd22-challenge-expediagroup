@@ -19,9 +19,9 @@ in target brands using the data from a source brand.
 ## Important Dates
 
 - May 5, 2022: Training and holdout data released
-- June 10, 2022: Test data released
-- June 12, 2022: Participants submit the predictions
-- July 15, 2022: Paper submission
+- June 20, 2022: Test data released
+- June 22, 2022: Participants submit the predictions
+- July 17, 2022: Paper submission
 - July 30, 2022: Author notification
 - September XX, 2022, 2022: Challenge session at ECML/PKDD
 
