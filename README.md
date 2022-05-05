@@ -168,6 +168,8 @@ id      prediction
 
 # Legal
 
-This project is available under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html).
+- This *code* is available under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html).
+- This *data* is available under the [Creative Commons Attribution-NonCommercial 4.0 International License 
+(CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
 
 Copyright 2022 Expedia, Inc.
