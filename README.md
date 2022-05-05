@@ -18,7 +18,7 @@ in target brands using the data from a source brand.
 
 ## Important Dates
 
-- April 15, 2022: Training and holdout data released
+- May 5, 2022: Training and holdout data released
 - June 10, 2022: Test data released
 - June 12, 2022: Participants submit the predictions
 - July 15, 2022: Paper submission
@@ -45,9 +45,9 @@ a unique id.
 ...
 ```
 
-Training data is limited to Brand A customers and span 12,709,329 unique users. Holdout data correspond to four 
-brands B, C, D and E brands and span 12,191,159 unique users. The holdout data is split into a smaller part that will 
-be released together with the training data (133,836 users) and a larger part that will be released toward the end 
+Training data, `train.tsv.gz`, is limited to Brand A customers and span 12,709,329 unique users. Holdout data correspond to four 
+brands B, C, D and E brands and span 12,191,159 unique users. The holdout data is split into a smaller part, `holdout.tsv.gz`, that will 
+be released together with the training data (133,836 users) and a larger part, `test.tsv.gz`, that will be released toward the end 
 of the competition (12,057,323 users). Train and holdout data contain 1,304,763 unique properties. 
 
 Sequences of clicked properties were deduplicated by eliminating duplicate copies of repeating property ids. The data 
@@ -95,14 +95,14 @@ item appears at the top k predicted items. We will set k=5.
 
 # Baselines
 
-We release an implementation of a simple baseline approach as well as the evaluation hits@k metric. The baseline 
+We release an implementation of a simple baseline approach as well as the evaluation *hits@k* metric. The baseline 
 implements a simple *Markov model* that calculates the transition matrix based on a window of size 1 to 
 calculate the transition probabilities. During prediction the baseline uses only the last click in the session to 
 propose the next clicked hotel. The baseline and evaluation metric are implemented in Python and Tensorflow.
 
 In order to run the baseline you can use the following command:
 ```sh
-python baseline_evaluator.py --train_path pathtotrainfile --eval_path pathtotestfile
+python baseline_evaluator.py --train_path path_to_train_file --eval_path path_to_test_file
 ```
 
 ## Software requirements
