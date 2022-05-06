@@ -25,6 +25,13 @@ in target brands using the data from a source brand.
 - July 30, 2022: Author notification
 - September XX, 2022, 2022: Challenge session at ECML/PKDD
 
+# Legal
+
+- This *code* is available under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html).
+- This *data* is available under the [Creative Commons Attribution-NonCommercial 4.0 International License 
+(CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/). Detailed terms of use for Expedia Group datasets can 
+ be found in [TERMS_OF_USE_DATA.md](TERMS_OF_USE_DATA.md).
+
 # Description of the Data
 
 The Expedia Group dataset consists of a random sample of global lodging clicks from consumers in multiple countries 
@@ -165,11 +172,5 @@ id      prediction
 120     7301984
 183     6433012
 ```
-
-# Legal
-
-- This *code* is available under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html).
-- This *data* is available under the [Creative Commons Attribution-NonCommercial 4.0 International License 
-(CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
 
 Copyright 2022 Expedia, Inc.
