@@ -173,4 +173,12 @@ id      prediction
 183     6433012
 ```
 
+# Submission details, Contact and Issues
+You can submit the file with an email to the following addresses: 
+awoznica [at] expediagroup [dot] com and ipartalas [at] expediagroup [dot] com.
+
+For any question or clarification please open an issue in the github project.
+You can alternatively contact us directly with an email.
+
+
 Copyright 2022 Expedia, Inc.
